@@ -28,3 +28,12 @@ The server will send the Updates every 10 Seconds.
 <code>lat, long</code> representing the coordinates of the current player <br/>
 <code>speed_kph</code> speed of the player in Kilometer per Hour <br/>
 <code>time_iso_8601</code> the current date/time formated as a ISO 8601 String
+
+## Unsubscribe
+
+To stop receiving updates about position, speed, and date/time, you can send an unsubscribe message in the following format:
+<code-block lang="json">
+{
+    "unsubscribe": "pos"
+}
+</code-block>
