@@ -11,4 +11,5 @@
         <toc-element topic="System-Events.md"/>
         <toc-element topic="Location.md"/>
     </toc-element>
+    <toc-element topic="Actions.md"/>
 </instance-profile>
