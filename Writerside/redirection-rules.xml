@@ -10,4 +10,8 @@
         <description>Created after removal of "Location API" from Instance Name</description>
         <accepts>Location-API.html</accepts>
     </rule>
+    <rule id="41dc1bb0">
+        <description>Created after removal of "Actions" from TSW WebSocket API</description>
+        <accepts>Actions.html</accepts>
+    </rule>
 </rules>
