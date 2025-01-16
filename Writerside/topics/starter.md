@@ -19,3 +19,12 @@ This mod offers the following features for TSW:
 
 Have a look at <a href="Events.md" /> on how to subscribe to certain events.
 
+<seealso>
+        <category ref="related">
+            <a href="Installation.md"/>
+        </category>
+       <category ref="external">
+           <a href="https://www.trainsimcommunity.com/mods/c3-train-sim-world/c109-other/i5723-tsw-web-socket-api">TrainSimCommunity</a>
+           <a href="https://www.trainsimcommunity.com/mods/c3-train-sim-world/c109-other/i5711-ue4ss-code-library">UE4SS TSW Fork</a>
+       </category>
+</seealso>
