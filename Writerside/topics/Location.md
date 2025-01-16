@@ -6,13 +6,14 @@ The Position API will give you Information about the current coordinates and spe
 
 <code-block lang="json">
 {
-    "subscribe": "pos"
+    "subscribe": "pos",
+    "interval": 10000, //optional, default value is 10000ms
 }
 </code-block>
 
 ## Response
 
-The server will send the Updates every 10 Seconds.
+The server will send the Updates every 10 Seconds if you subscribe without an interval. Intervals below <code>1000ms</code> will be executed every <code>1000ms</code> for performance reasons.
 
 <code-block lang="json">
 {

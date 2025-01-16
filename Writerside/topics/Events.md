@@ -12,7 +12,8 @@ To subscribe to location updates, simply send the following command to the serve
 
 <code-block lang="json">
 {
-    "subscribe": "pos"
+    "subscribe": "pos",
+    "interval": 1000, //optional, default value is 10000 ms
 }
 </code-block>
-Once subscribed, the WebSocket server will periodically send you updates about the location. This ensures you always have the latest information at regular intervals.
+Once subscribed, the WebSocket server will periodically send you updates about the location. This ensures you always have the latest information at regular intervals. For performance reasons interval below 1000ms will be executed every <code>1000ms</code>. If you subscribe without any given interval, the default value of <code>1000ms</code> will be used.

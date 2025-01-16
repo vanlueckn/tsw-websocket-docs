@@ -7,7 +7,7 @@ This library is a work in progress (WIP) and does not add any content on its own
 
 ## Getting started
 
-The Mod will start a Websocket Server on <code>ws://127.0.01:9187/api</code>.
+The Mod will start a Websocket Server on <code>ws://127.0.0.1:9187/api</code>.
 
 <tip>
 The port is currently hardcoded, and it is unlikely that this will change in the future.
